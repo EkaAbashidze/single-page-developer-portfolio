@@ -10,4 +10,29 @@
 
 body {
   margin: 0;
+  background-color: #151515;
+  background-image: url("./assets/images/pattern-rings.svg"), url("./assets/images/pattern-circle.svg"), url("./assets/images/pattern-rings.svg");
+  background-repeat: no-repeat;
+  background-position: left -342px top 124px, right -65px top 254px, top 1287px right -334px;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-VariableFont';
+  src: url('./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Bold';
+  src: url('./assets/fonts/static/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpaceGrotesk-Medium';
+  src: url('./assets/fonts/static/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
