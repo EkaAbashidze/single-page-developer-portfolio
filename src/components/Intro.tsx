@@ -10,7 +10,7 @@ export default function intro() {
   return (
     <div className="flex flex-col items-center text-center relative text-white">
       <div className="absolute top-[20px] flex flex-col gap-y-[22px]">
-        <h2 className="font-grotesk-bold text-2xl leading-[36px]">adamkeyes</h2>
+        <h2 className="font-grotesk-bold text-2xl leading-[36px]"> <em>adamkeyes</em></h2>
         <div className="flex justify-between gap-x-[20px]">
           <IconGithub />
           <IconFrontEnd />

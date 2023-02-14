@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "patter-circle": "url(../src/assets/images/pattern-circle.svg)",
+        "patter-rings": "url(../src/assets/images/pattern-rings.svg)",
       },
       width: {
         798: "798px",
@@ -20,6 +21,7 @@ module.exports = {
         bgColor: "#151515",
         green: "#4EE1A0",
         grey: "#D9D9D9",
+        darkgrey: "#242424",
       },
     },
     fontFamily: {
