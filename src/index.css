@@ -16,6 +16,12 @@ body {
   background-position: left -342px top 124px, right -65px top 254px, top 1287px right -334px;
 }
 
+@media screen and (min-width: 768.5px) {
+  body {
+    background-position: left -342px top 124px, right -65px top 254px, top 1287px right -334px;
+  }
+}
+
 @font-face {
   font-family: 'SpaceGrotesk-VariableFont';
   src: url('./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
@@ -35,4 +41,10 @@ body {
   src: url('./assets/fonts/static/SpaceGrotesk-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+}
+
+@media screen and (min-width: 768.5px) {
+  body {
+    background-position: left -265px top 86px, right -63px top 471px, top 1047px right -332px;
+  }
 }
