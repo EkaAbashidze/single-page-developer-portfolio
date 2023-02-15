@@ -16,7 +16,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="text-white pb-[40px] flex justify-between max-w-[343px] mx-auto items-center md:mt-[48px]">
+      <div className="text-white pb-[40px] flex justify-between max-w-[343px] mx-auto items-center md:mt-[48px] md:max-w-[calc(100%-32px)] ">
         <h1 className="font-grotesk-bold text-[40px] leading-[40px] tracking-[-1.14px]">
           Projects
         </h1>
@@ -28,13 +28,13 @@ export default function Projects() {
         </button>
       </div>
 
-      <div>
+      <div className="md:grid md:grid-cols-2">
         <Project photo={Thumb1} title="DESIGN PORTFOLIO" arr={stacks} />
-        <Project photo={Thumb2} title="E-LEARNING LANDING PAGE" arr={stacks}/>
-        <Project photo={Thumb3} title="TODO WEB APP" arr={stacksAll}/>
-        <Project photo={Thumb4} title="ENTERTAINMENT WEB APP" arr={stacksAll}/>
-        <Project photo={Thumb5} title="MEMORY GAME" arr={stacksAll}/>
-        <Project photo={Thumb6} title="ART GALLERY SHOWCASE" arr={stacksAll}/>
+        <Project photo={Thumb2} title="E-LEARNING LANDING PAGE" arr={stacks} />
+        <Project photo={Thumb3} title="TODO WEB APP" arr={stacksAll} />
+        <Project photo={Thumb4} title="ENTERTAINMENT WEB APP" arr={stacksAll} />
+        <Project photo={Thumb5} title="MEMORY GAME" arr={stacksAll} />
+        <Project photo={Thumb6} title="ART GALLERY SHOWCASE" arr={stacksAll} />
       </div>
     </>
   );
