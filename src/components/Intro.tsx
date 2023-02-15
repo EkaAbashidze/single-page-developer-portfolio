@@ -74,19 +74,24 @@ export default function intro() {
 
       <div className="bg-white w-full max-w-[calc(100%-32px)] md:m-x-[16px] h-[1px] mt-[80px] mb-[40px] md:mt-[60px] md:mb-[52px] "></div>
 
-      <Stack stackName="HTML" years={4} />
+      
+      <div className="md:grid md:grid-cols-2 md:items-start md:w-[calc(100%-32px)]  ">
+      
+        <Stack stackName="HTML" years={4} />
 
-      <Stack stackName="CSS" years={4} />
+        <Stack stackName="CSS" years={4} />
 
-      <Stack stackName="Javascript" years={4} />
+        <Stack stackName="Javascript" years={4} />
 
-      <Stack stackName="Accessibility" years={4} />
+        <Stack stackName="Accessibility" years={4} />
 
-      <Stack stackName="React" years={3} />
+        <Stack stackName="React" years={3} />
 
-      <Stack stackName="Sass" years={3} />
+        <Stack stackName="Sass" years={3} />
 
-      <div className="bg-white w-full  h-[1px] mt-[16px] mb-[80px] max-w-[calc(100%-32px)]"></div>
+      </div>
+
+      <div className="md:hidden bg-white w-full  h-[1px] mt-[16px] mb-[80px] max-w-[calc(100%-32px)]"></div>
     </div>
   );
 }
