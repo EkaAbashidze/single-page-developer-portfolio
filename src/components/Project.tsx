@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Project({photo, title, arr}: {photo: string, title: string, arr: string[]}) {
   return (
-    <div className="text-white max-w-[343px] mx-auto pb-[40px]">
+    <div className="text-white max-w-[343px] mx-auto pb-[40px] md:pb-[60px]">
       <img src={photo} alt="" className='cursor-pointer'/>
       <h2 className=' font-grotesk-bold text-[24px] leading-[32px] pt-[20px] cursor-pointer'>{title}</h2>
 

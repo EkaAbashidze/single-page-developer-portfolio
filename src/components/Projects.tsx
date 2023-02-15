@@ -28,7 +28,7 @@ export default function Projects() {
         </button>
       </div>
 
-      <div className="md:grid md:grid-cols-2">
+      <div className="md:grid md:grid-cols-2 md:mb-[40px]">
         <Project photo={Thumb1} title="DESIGN PORTFOLIO" arr={stacks} />
         <Project photo={Thumb2} title="E-LEARNING LANDING PAGE" arr={stacks} />
         <Project photo={Thumb3} title="TODO WEB APP" arr={stacksAll} />
