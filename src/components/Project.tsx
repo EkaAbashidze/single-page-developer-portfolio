@@ -15,7 +15,7 @@ export default function Project({photo, title, arr, photoDesk}: {photo: string, 
         ))}
       </div>
 
-      <div className="flex gap-x-8 lg:absolute lg:bg-black lg:top-0 lg-left-0 lg:w-full lg:h-[400px] lg:opacity-0 hover:lg:opacity-75 lg:flex-col lg:justify-center lg:gap-y-[48px] cursor-pointer">
+      <div className="flex gap-x-8 lg:absolute lg:bg-black lg:top-0 lg-left-0 lg:w-full lg:h-[400px] lg:opacity-0 hover:lg:opacity-100 lg:bg-[rgba(0,0,0,0.75)] lg:flex-col lg:justify-center lg:gap-y-[48px] cursor-pointer">
         <button className="flex flex-col items-center gap-y-[10px]">
           <h2 className="font-grotesk-bold text-base leading-[26px] tracking-[2.26px] hover:text-green active:scale-[0.96] transition-colors ease-in-out delay-200 ">
             VIEW PROJECT
