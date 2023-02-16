@@ -16,7 +16,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="text-white pb-[40px] flex justify-between max-w-[343px] mx-auto items-center md:mt-[48px] md:max-w-[calc(100%-32px)] ">
+      <div className="text-white pb-[40px] flex justify-between max-w-[343px] mx-auto items-center md:mt-[48px] md:max-w-[calc(100%-32px)] lg:mt-[82px]">
         <h1 className="font-grotesk-bold text-[40px] leading-[40px] tracking-[-1.14px]">
           Projects
         </h1>

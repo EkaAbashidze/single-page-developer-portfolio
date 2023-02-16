@@ -82,9 +82,9 @@ export default function intro() {
       </div>
 
       <div className="bg-white w-full max-w-[calc(100%-32px)] lg:lg:max-w-[calc(100%-335px)] md:m-x-[16px] h-[1px] mt-[80px] mb-[40px] md:mt-[60px] md:mb-[52px] 
-      lg:mt-[60px] lg:mb-[52px] "></div>
+      lg:mt-[104px] lg:mb-[72px] "></div>
 
-      <div className="md:grid md:grid-cols-2 md:items-start md:w-[calc(100%-32px)] lg:grid lg:grid-cols-3 lg:items-start lg:w-[calc(100%-32px)]  ">
+      <div className="md:grid md:grid-cols-2 md:items-start md:w-[calc(100%-32px)] lg:grid lg:grid-cols-3 lg:items-start lg:w-[calc(100%-335px)]  ">
         <Stack stackName="HTML" years={4} />
 
         <Stack stackName="CSS" years={4} />
