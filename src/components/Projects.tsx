@@ -27,7 +27,7 @@ export default function Projects() {
           Projects
         </h1>
         <button className="flex flex-col items-center gap-y-[10px]">
-          <h2 className="font-grotesk-bold text-base leading-[26px] tracking-[2.26px]">
+          <h2 className="font-grotesk-bold text-base leading-[26px] tracking-[2.26px] hover:text-green active:scale-[0.96] transition-colors ease-in-out delay-200">
             CONTACT ME
           </h2>
           <div className="w-[120px] h-[2px] bg-green"></div>
@@ -43,5 +43,5 @@ export default function Projects() {
         <Project photo={Thumb6} photoDesk={Thumb6Desk} title="ART GALLERY SHOWCASE" arr={stacksAll} />
       </div>
     </>
-  );
+  ); 
 }

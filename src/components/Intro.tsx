@@ -72,7 +72,7 @@ export default function intro() {
           </p>
 
           <div className="pt-6 flex flex-col items-center md:pt-[34px] lg:pt-[66px]">
-            <button className="font-grotesk-bold font-bold text-base leading-[26px] tracking-[2.28px] pb-[10px]">
+            <button className="font-grotesk-bold font-bold text-base leading-[26px] tracking-[2.28px] pb-[10px] hover:text-green active:scale-[0.96] transition-colors ease-in-out delay-200 ">
               CONTACT ME
             </button>
 
