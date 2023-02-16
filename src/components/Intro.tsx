@@ -16,7 +16,7 @@ export default function intro() {
         lg:flex lg:flex-row lg:justify-between lg:items-center lg:top-[39px] lg:left-0 lg:w-full lg:px-[165px]
       "
       >
-        <h2 className="font-grotesk-bold text-2xl leading-[36px]">adamkeyes</h2>
+        <h2 className="font-grotesk-bold text-2xl leading-[36px] lg:text-[32px] lg:leading-[32px]">adamkeyes</h2>
         <div className="flex justify-between gap-x-[20px] lg:mr-[30px]">
           <IconGithub />
           <IconFrontEnd />
