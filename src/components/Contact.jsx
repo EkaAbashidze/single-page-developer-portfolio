@@ -6,7 +6,7 @@ import IconTwitter from '../assets/svg/IconTwitter';
 
 export default function Contact() {
   return (
-    <div className="text-white w-full mx-auto text-center flex flex-col items-center bg-darkgrey h-[834px] px-4 py-[60px] bg-patter-rings bg-no-repeat bg-[left_-343px_bottom_269px] md:bg-[left_-368px_bottom_130px] md:px-8 md:py-[0px] md:pt-[60px] md:pb-[40px] md:h-[806px]" >
+    <div className="text-white w-full mx-auto text-center flex flex-col items-center bg-darkgrey h-[834px] px-4 py-[60px] bg-patter-rings bg-no-repeat bg-[left_-343px_bottom_269px] md:bg-[left_-368px_bottom_130px] md:px-8 md:py-[0px] md:pt-[60px] md:pb-[40px] md:h-[806px] lg:mt-[70px]" >
       <h1 className='text-[40px] font-grotesk-bold leading-[40px] tracking-[-1.14px] md:text-[72px] md:leading-[72px] md:tracking-[-2.05px]'>Contact</h1>
       <p className=' text-grey max-w-[343px] font-grotesk-medium text-base leading-[26px] pt-[20px] pb-[50px] md:pb-[48px] md:max-w-[445px] md:text-[18px] md:leading-[28px] ' >I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
 

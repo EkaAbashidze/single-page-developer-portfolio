@@ -6,6 +6,12 @@ import Thumb3 from "../assets/images/thumbnail-project-3-small.webp"
 import Thumb4 from "../assets/images/thumbnail-project-4-small.webp"
 import Thumb5 from "../assets/images/thumbnail-project-5-small.webp"
 import Thumb6 from "../assets/images/thumbnail-project-6-small.webp"
+import Thumb1Desk from "../assets/images/thumbnail-project-1-large.webp"
+import Thumb2Desk from "../assets/images/thumbnail-project-2-large.webp"
+import Thumb3Desk from "../assets/images/thumbnail-project-3-large.webp"
+import Thumb4Desk from "../assets/images/thumbnail-project-4-large.webp"
+import Thumb5Desk from "../assets/images/thumbnail-project-5-large.webp"
+import Thumb6Desk from "../assets/images/thumbnail-project-6-large.webp"
 
 export default function Projects() {
 
@@ -16,7 +22,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="text-white pb-[40px] flex justify-between max-w-[343px] mx-auto items-center md:mt-[48px] md:max-w-[calc(100%-32px)] lg:mt-[82px]">
+      <div className="text-white pb-[40px] flex justify-between max-w-[343px] mx-auto items-center md:mt-[48px] md:max-w-[calc(100%-32px)] lg:max-w-[calc(100%-335px)] lg:mt-[82px]">
         <h1 className="font-grotesk-bold text-[40px] leading-[40px] tracking-[-1.14px]">
           Projects
         </h1>
@@ -28,13 +34,13 @@ export default function Projects() {
         </button>
       </div>
 
-      <div className="md:grid md:grid-cols-2 md:mb-[40px]">
-        <Project photo={Thumb1} title="DESIGN PORTFOLIO" arr={stacks} />
-        <Project photo={Thumb2} title="E-LEARNING LANDING PAGE" arr={stacks} />
-        <Project photo={Thumb3} title="TODO WEB APP" arr={stacksAll} />
-        <Project photo={Thumb4} title="ENTERTAINMENT WEB APP" arr={stacksAll} />
-        <Project photo={Thumb5} title="MEMORY GAME" arr={stacksAll} />
-        <Project photo={Thumb6} title="ART GALLERY SHOWCASE" arr={stacksAll} />
+      <div className="md:grid md:grid-cols-2 md:mb-[40px] lg:grid lg:grid-cols-2 lg:mb-[40px] lg:ml-[165px] lg:mr-[165px]">
+        <Project photo={Thumb1} photoDesk={Thumb1Desk} title="DESIGN PORTFOLIO" arr={stacks} />
+        <Project photo={Thumb2} photoDesk={Thumb2Desk} title="E-LEARNING LANDING PAGE" arr={stacks} />
+        <Project photo={Thumb3} photoDesk={Thumb3Desk} title="TODO WEB APP" arr={stacksAll} />
+        <Project photo={Thumb4} photoDesk={Thumb4Desk} title="ENTERTAINMENT WEB APP" arr={stacksAll} />
+        <Project photo={Thumb5} photoDesk={Thumb5Desk} title="MEMORY GAME" arr={stacksAll} />
+        <Project photo={Thumb6} photoDesk={Thumb6Desk} title="ART GALLERY SHOWCASE" arr={stacksAll} />
       </div>
     </>
   );
