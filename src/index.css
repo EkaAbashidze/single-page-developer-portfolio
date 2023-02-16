@@ -48,3 +48,9 @@ body {
     background-position: left -265px top 86px, right -63px top 471px, top 1047px right -332px;
   }
 }
+
+@media screen and (min-width: 1439.5px) {
+  body {
+    background-position: left -100px top 133px, right 545px top 519px, top 1077px right -239px;
+  }
+}
