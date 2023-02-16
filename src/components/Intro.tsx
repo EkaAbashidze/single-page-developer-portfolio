@@ -16,7 +16,9 @@ export default function intro() {
         lg:flex lg:flex-row lg:justify-between lg:items-center lg:top-[39px] lg:left-0 lg:w-full lg:px-[165px]
       "
       >
-        <h2 className="font-grotesk-bold text-2xl leading-[36px] lg:text-[32px] lg:leading-[32px]">adamkeyes</h2>
+        <h2 className="font-grotesk-bold text-2xl leading-[36px] lg:text-[32px] lg:leading-[32px]">
+          adamkeyes
+        </h2>
         <div className="flex justify-between gap-x-[20px] lg:mr-[30px]">
           <IconGithub />
           <IconFrontEnd />
@@ -43,27 +45,35 @@ export default function intro() {
           />
         </div>
 
-        <div className="hidden lg:flex lg:order-1 lg:bg-patter-circle lg:bg-no-repeat lg:bg-[left_-63px_bottom_70px]" >
-
-        <img
-          src={ProfileImgDesktop}
-          alt=""
-          className="w-[444px] h-auto sm:hidden md:hidden z-[-1]"
+        <div className="hidden lg:flex lg:order-1 lg:bg-patter-circle lg:bg-no-repeat lg:bg-[left_-63px_bottom_70px]">
+          <img
+            src={ProfileImgDesktop}
+            alt=""
+            className="w-[444px] h-auto sm:hidden md:hidden z-[-1]"
           />
-          </div>
+        </div>
 
-        <div className="md:flex md:flex-col md:mr-[-32px] md:z-10 md:items-start
-        lg:flex lg:flex-col lg:mr-[-44px] lg:z-10 lg:items-start">
-          <div className="flex flex-col items-end pt-[40px] mb-[20px] md:items-start md:mb-[60px] 
-          lg:items-end lg:mb-[37px] lg:pt-[100px] ">
-            <h1 className="font-grotesk-bold text-[40px] leading-[40px] max-w-[343px] tracking-[-1.14px] md:text-[72px] md:leading-[72px] md:max-w-[455px] 
-            lg:text-[88px] lg:leading-[88px] lg:max-w-[730px] lg:tracking-[-2.5px]">
-              Nice to <br className="hidden md:block" /> meet you! <br className="hidden lg:block"/>  I’m
+        <div
+          className="md:flex md:flex-col md:mr-[-32px] md:z-10 md:items-start
+        lg:flex lg:flex-col lg:mr-[-44px] lg:z-10 lg:items-start"
+        >
+          <div
+            className="flex flex-col items-end pt-[40px] mb-[20px] md:items-start md:mb-[60px] 
+          lg:items-end lg:mb-[37px] lg:pt-[100px] "
+          >
+            <h1
+              className="font-grotesk-bold text-[40px] leading-[40px] max-w-[343px] tracking-[-1.14px] md:text-[72px] md:leading-[72px] md:max-w-[455px] 
+            lg:text-[88px] lg:leading-[88px] lg:max-w-[730px] lg:tracking-[-2.5px]"
+            >
+              Nice to <br className="hidden md:block" /> meet you!{" "}
+              <br className="hidden lg:block" /> I’m
               <br className="hidden md:block" /> Adam Keyes.
             </h1>
 
-            <div className="w-[225px] h-[4px] bg-green mr-[32px] md:w-[410px]
-            lg:w-[492px] lg:mr-[78px] lg:h-[6px]"></div>
+            <div
+              className="w-[225px] h-[4px] bg-green mr-[32px] md:w-[410px]
+            lg:w-[492px] lg:mr-[78px] lg:h-[6px]"
+            ></div>
           </div>
 
           <p className="text-grey font-grotesk-medium font-medium text-base leading-[26px] max-w-[343px] md:max-w-[400px] md:text-[18px] md:leading-[28px] lg:max-w-[445px] lg:text-[18px] lg:leading-[28px]">
@@ -81,8 +91,10 @@ export default function intro() {
         </div>
       </div>
 
-      <div className="bg-white w-full max-w-[calc(100%-32px)] lg:lg:max-w-[calc(100%-335px)] md:m-x-[16px] h-[1px] mt-[80px] mb-[40px] md:mt-[60px] md:mb-[52px] 
-      lg:mt-[104px] lg:mb-[72px] "></div>
+      <div
+        className="bg-white w-full max-w-[calc(100%-32px)] lg:lg:max-w-[calc(100%-335px)] md:m-x-[16px] h-[1px] mt-[80px] mb-[40px] md:mt-[60px] md:mb-[52px] 
+      lg:mt-[104px] lg:mb-[72px] "
+      ></div>
 
       <div className="md:grid md:grid-cols-2 md:items-start md:w-[calc(100%-32px)] lg:grid lg:grid-cols-3 lg:items-start lg:w-[calc(100%-335px)]  ">
         <Stack stackName="HTML" years={4} />

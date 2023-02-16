@@ -1,24 +1,21 @@
-import React from 'react'
-import Project from './Project';
-import Thumb1 from "../assets/images/thumbnail-project-1-small.webp"
-import Thumb2 from "../assets/images/thumbnail-project-2-small.webp"
-import Thumb3 from "../assets/images/thumbnail-project-3-small.webp"
-import Thumb4 from "../assets/images/thumbnail-project-4-small.webp"
-import Thumb5 from "../assets/images/thumbnail-project-5-small.webp"
-import Thumb6 from "../assets/images/thumbnail-project-6-small.webp"
-import Thumb1Desk from "../assets/images/thumbnail-project-1-large.webp"
-import Thumb2Desk from "../assets/images/thumbnail-project-2-large.webp"
-import Thumb3Desk from "../assets/images/thumbnail-project-3-large.webp"
-import Thumb4Desk from "../assets/images/thumbnail-project-4-large.webp"
-import Thumb5Desk from "../assets/images/thumbnail-project-5-large.webp"
-import Thumb6Desk from "../assets/images/thumbnail-project-6-large.webp"
+import React from "react";
+import Project from "./Project";
+import Thumb1 from "../assets/images/thumbnail-project-1-small.webp";
+import Thumb2 from "../assets/images/thumbnail-project-2-small.webp";
+import Thumb3 from "../assets/images/thumbnail-project-3-small.webp";
+import Thumb4 from "../assets/images/thumbnail-project-4-small.webp";
+import Thumb5 from "../assets/images/thumbnail-project-5-small.webp";
+import Thumb6 from "../assets/images/thumbnail-project-6-small.webp";
+import Thumb1Desk from "../assets/images/thumbnail-project-1-large.webp";
+import Thumb2Desk from "../assets/images/thumbnail-project-2-large.webp";
+import Thumb3Desk from "../assets/images/thumbnail-project-3-large.webp";
+import Thumb4Desk from "../assets/images/thumbnail-project-4-large.webp";
+import Thumb5Desk from "../assets/images/thumbnail-project-5-large.webp";
+import Thumb6Desk from "../assets/images/thumbnail-project-6-large.webp";
 
 export default function Projects() {
-
-
   const stacks: string[] = ["HTML", "CSS"];
   const stacksAll: string[] = ["HTML", "CSS", "JAVASCRIPT"];
-
 
   return (
     <>
@@ -35,13 +32,43 @@ export default function Projects() {
       </div>
 
       <div className="md:grid md:grid-cols-2 md:mb-[40px] lg:grid lg:grid-cols-2 lg:mb-[40px] lg:ml-[165px] lg:mr-[165px]">
-        <Project photo={Thumb1} photoDesk={Thumb1Desk} title="DESIGN PORTFOLIO" arr={stacks} />
-        <Project photo={Thumb2} photoDesk={Thumb2Desk} title="E-LEARNING LANDING PAGE" arr={stacks} />
-        <Project photo={Thumb3} photoDesk={Thumb3Desk} title="TODO WEB APP" arr={stacksAll} />
-        <Project photo={Thumb4} photoDesk={Thumb4Desk} title="ENTERTAINMENT WEB APP" arr={stacksAll} />
-        <Project photo={Thumb5} photoDesk={Thumb5Desk} title="MEMORY GAME" arr={stacksAll} />
-        <Project photo={Thumb6} photoDesk={Thumb6Desk} title="ART GALLERY SHOWCASE" arr={stacksAll} />
+        <Project
+          photo={Thumb1}
+          photoDesk={Thumb1Desk}
+          title="DESIGN PORTFOLIO"
+          arr={stacks}
+        />
+        <Project
+          photo={Thumb2}
+          photoDesk={Thumb2Desk}
+          title="E-LEARNING LANDING PAGE"
+          arr={stacks}
+        />
+        <Project
+          photo={Thumb3}
+          photoDesk={Thumb3Desk}
+          title="TODO WEB APP"
+          arr={stacksAll}
+        />
+        <Project
+          photo={Thumb4}
+          photoDesk={Thumb4Desk}
+          title="ENTERTAINMENT WEB APP"
+          arr={stacksAll}
+        />
+        <Project
+          photo={Thumb5}
+          photoDesk={Thumb5Desk}
+          title="MEMORY GAME"
+          arr={stacksAll}
+        />
+        <Project
+          photo={Thumb6}
+          photoDesk={Thumb6Desk}
+          title="ART GALLERY SHOWCASE"
+          arr={stacksAll}
+        />
       </div>
     </>
-  ); 
+  );
 }
